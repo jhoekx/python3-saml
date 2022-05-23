@@ -313,6 +313,9 @@ class OneLogin_Saml2_IdPMetadataParser_Test(unittest.TestCase):
                     "url": "https://hello.example.com/access/saml/login",
                     "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
                 }
+            },
+            "security": {
+              "authnRequestsSigned": "true"
             }
         }
         """
